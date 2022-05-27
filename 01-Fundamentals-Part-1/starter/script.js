@@ -31,7 +31,7 @@ if (js === 'amazing') alert('JavaScript is FUN!');
 // var job = 'programmer';
 // job = 'teacher'
 
-const now = 2037;
+/* const now = 2037;
 const ageJonas = now - 1991;
 const ageSarah = now - 2018;
 console.log(ageJonas, ageSarah);
@@ -49,3 +49,29 @@ x--; // -1
 console.log(x);
 
 console.log(ageJonas > ageSarah);
+
+console.log(`Teste
+multline
+1
+2
+3`); */
+
+const age = 17;
+const isOldEnough = age >= 18;
+
+if (isOldEnough) {
+    console.log(`You can start driving 🚗`)
+} else {
+    const yearsLeft = 18 - age;
+    console.log (`You are too young. Wait another ${yearsLeft} year(s). :)`)
+}
+
+const birthYear = 2001;
+
+let century;
+if(birthYear <= 2000)  {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century);
